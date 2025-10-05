@@ -1,35 +1,49 @@
-🛠️ Kam Karwaoo – Home Services Platform
+🧪 Text-Based Unit Test Case Generator
 
-Kam Karwaoo is a web-based platform that connects customers with trusted local service providers (handymen) for home-related tasks such as plumbing, electrical work, cleaning, and more. The project is designed to make hiring reliable professionals simple, transparent, and efficient.
+This project is a web-based tool that automatically generates well-structured test case scenarios from plain English input. It helps developers, QA engineers, and testers quickly create organized test documentation without needing manual formatting.
 
-🚀 Features
+🚀 Key Features
 
-User Roles: Separate dashboards for customers and service providers
+✏️ Smart Input Parsing: Enter any user story, requirement, or feature description in text format — the app intelligently converts it into structured test cases.
 
-Service Booking: Customers can browse, book, and schedule services
+🧱 Multiple Output Formats:
 
-Chat System: Real-time communication between customers and handymen (with support for text & voice messages)
+Standard View – clean, formatted test cases
 
-Incentives & Loyalty Points: Customers earn rewards for bookings and referrals
+Detailed View – includes setup, steps, expected results, and teardown sections
 
-Referral System: Invite friends and get bonus points
+Simple View – minimal checklist-style summary
 
-Performance Tracking: Dashboard for handymen to view job history, ratings, and earnings
+📋 One-Click Copy: Copy test cases directly to your clipboard for easy sharing or documentation.
 
-Order Management: Track pending, ongoing, and completed tasks
+🔔 Notification System: Displays copy success feedback.
 
-🧑‍💻 Tech Stack
+💡 Fully Client-Side: No backend required — runs entirely in your browser using pure HTML, CSS, and JavaScript.
 
-Frontend: React, Tailwind CSS
+🧰 Tech Stack
 
-Backend: Node.js, Express.js
+HTML5 – Structure
 
-Database: MongoDB
+CSS3 – Styling and layout
 
-Authentication: JWT-based secure login system
+JavaScript (Vanilla) – Core logic for parsing and generation
 
-Other Tools: WebSockets for real-time chat, Cloud storage for media
+🧩 Use Case Examples
 
-🎯 Purpose
+QA teams generating quick test documentation
 
-The goal of Kam Karwaoo is to provide a digital solution for everyday home service needs while empowering local service providers with an easy-to-use platform to find work and grow their earnings.
+Developers creating unit or integration test outlines
+
+Students or researchers learning software testing principles
+
+🖥️ How to Use
+
+Open the index.html file in your browser.
+
+Paste your text or user story in the input box.
+
+Choose your preferred output format (Standard / Detailed / Simple).
+
+Click Generate Test Cases.
+
+Copy or export the generated results.
